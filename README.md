@@ -10,13 +10,21 @@ Dont expect super sound quality, its made to fit into a very small microcontroll
 To compile some samples yourself, for converting .raw files to the .h header files needed in the Mozzi sketch:(.raw files can be converted from .wav files in Audacity.)
 
 1.audacity menu > file > open
+
 2. select wav file
+
 3. highlight and delete sections not wanted
+
 4. go to Menu > tracks > mix > Mix Stereo down to Mono (files must be mono)
+
 5. go to file > Export > export Audio (or Export Selected Audio)
+
 6. choose export file type as “other uncompressed files”
+
 7. Header = RAW (Headerless)
+
 8. Encoding = signed 8-Bit PCM (8 bit is smallest size .h file in the end)
+
 9. then save.
 
 This will produce the RAW file for the converter to use in the terminal window.
